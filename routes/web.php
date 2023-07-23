@@ -1,6 +1,6 @@
 <?php
 
-
+ 
 use App\Events\TestEvent;
 use App\Events\VotingEvent;
 use App\Http\Controllers\Auth\UserAuthController;
@@ -9,7 +9,7 @@ use App\Http\Controllers\Backend\JurusanController;
 use App\Http\Controllers\Backend\KandidatController;
 use App\Http\Controllers\Backend\KelasController;
 use App\Http\Controllers\Backend\PemilihController;
-
+ 
 use App\Http\Controllers\ConfigController;
 use App\Http\Controllers\Frontend\DashboardController as FrontendDashboardController;
 use App\Http\Controllers\Frontend\VotingController;
@@ -90,7 +90,7 @@ Route::middleware(['auth','role:admin'])->group(function(){
             Route::get('/', [ConfigController::class, 'index'])->name('index');
             Route::post('/', [ConfigController::class, 'store'])->name('store');
             Route::post('/', [ConfigController::class, 'update'])->name('update');
-            Route::delete('/', [ConfigController::class, 'destroy'])->name('destroy');
+            Route::delete('/', [ConfigController::class, 'destroy'])->name('destroy');            
     });
 
     });
