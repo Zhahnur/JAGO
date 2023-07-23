@@ -16,3 +16,9 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::post('/login-admin', function () {
+})->name('login_admin_post');
+
+Route::post('/login', function () {
+})->name('login_user');
