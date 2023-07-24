@@ -92,12 +92,6 @@
         </div>
       </div>
     </div>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
         <footer>
           <div class="container">
             <div class="footer clearfix mb-0 text-muted">
