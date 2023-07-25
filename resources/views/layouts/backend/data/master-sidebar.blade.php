@@ -2,7 +2,7 @@
 class="sidebar-item  has-sub">
 <a href="#" class='sidebar-link'>
     <i class="bi bi-stack"></i>
-    <span>Master</span>
+    <span>Data</span>
 </a>
 <ul class="submenu ">
     <li class="submenu-item ">

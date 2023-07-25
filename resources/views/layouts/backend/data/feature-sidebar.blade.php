@@ -2,7 +2,7 @@
 class="sidebar-item  has-sub">
 <a href="#" class='sidebar-link'>
     <i class="bi bi-menu-down"></i>
-    <span>Feature</span>
+    <span>Fitur</span>
 </a>
 <ul class="submenu ">
     <li class="submenu-item ">
