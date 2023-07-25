@@ -13,7 +13,7 @@ class User extends Authenticatable
 {
     use HasApiTokens, HasFactory, Notifiable, HasRoles;
 
-
+   
     protected $fillable = [
         'name',
         'email',
@@ -23,13 +23,13 @@ class User extends Authenticatable
         'kandidat_id'
     ];
 
-
+    
     protected $hidden = [
         'password',
         'remember_token',
     ];
 
-
+   
     protected $casts = [
         'email_verified_at' => 'datetime',
     ];
@@ -46,5 +46,5 @@ class User extends Authenticatable
         return $this->belongsTo(Kelas::class,'kelas_id');
     }
 
-
+    
 }

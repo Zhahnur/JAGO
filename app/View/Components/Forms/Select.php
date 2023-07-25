@@ -35,7 +35,7 @@ class Select extends Component
         $this->hintText = $hintText;
     }
 
-
+  
     public function render()
     {
         return view('components.forms.select');
