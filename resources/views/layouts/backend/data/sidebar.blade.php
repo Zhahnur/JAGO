@@ -3,7 +3,7 @@
 <div class="sidebar-header position-relative">
 <div class="d-flex justify-content-between align-items-center">
     <div class="logo">
-        <a href="{{ route('backend.dashboard') }}"><img src="{{ asset('mazer') }}/assets/images/logo/logo.svg" alt="Logo" srcset=""></a>
+        <a href="{{ route('backend.dashboard') }}"><img src="{{ asset('mazer') }}/assets/images/logo/logoJago.jpeg" alt="Logo" srcset=""></a>
     </div>
     <div class="sidebar-toggler  x">
         <a href="#" class="sidebar-hide d-xl-none d-block"><i class="bi bi-x bi-middle"></i></a>
@@ -13,7 +13,7 @@
 <div class="sidebar-menu">
 <ul class="menu">
     <li class="sidebar-title">Menu</li>
-    
+
     <li
         class="sidebar-item  ">
         <a href="{{ route('backend.dashboard') }}" class='sidebar-link'>
@@ -21,7 +21,7 @@
             <span>Dashboard</span>
         </a>
     </li>
-    
+
   @include('layouts.backend.data.master-sidebar')
   @include('layouts.backend.data.feature-sidebar')
 
@@ -32,7 +32,7 @@
       <span>Pengaturan</span>
   </a>
 </li>
-    
+
 </ul>
 </div>
 </div>
