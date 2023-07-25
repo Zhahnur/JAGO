@@ -29,12 +29,12 @@
               src="{{ asset('mazer') }}/assets/images/samples/error-500.svg"
               alt="Not Found"
             />
-            <h1 class="error-title">System Error</h1>
+            <h1 class="error-title">Sistem error</h1>
             <p class="fs-5 text-gray-600">
             {{ $message }}
             </p>
             <a href="{{ url()->previous() }}" class="btn btn-lg btn-outline-primary mt-3"
-              >Go Back</a
+              >Kembali</a
             >
           </div>
         </div>

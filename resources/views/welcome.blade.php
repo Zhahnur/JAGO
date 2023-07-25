@@ -4,7 +4,7 @@
         <div class="row mb-5">
             <div class="col-md-6 pt-md-5 mb-3 text-center text-md-start">
                 <h1 class="text-uppercase">Selamat Datang Di JAGO</h1>
-                <h4>Mari Kita Sukseskan Pemilihan Suara <br> Institut Teknologi Telkom Surabaya</h4>
+                <h4>Mari Kita Sukseskan Pemilihan Suara di <br> Institut Teknologi Telkom Surabaya</h4>
                 <a href="http://localhost:8000/login" class="btn btn-outline-primary">Mulai Memilih</a>
             </div>
             <div class="col-md-6">
@@ -65,11 +65,11 @@
                 <div class="modal-footer">
                     <button type="button" class="btn" data-bs-dismiss="modal">
                         <i class="bx bx-x d-block d-sm-none"></i>
-                        <span class="d-none d-sm-block">Close</span>
+                        <span class="d-none d-sm-block">Tutup</span>
                     </button>
                     <button type="button" class="btn btn-primary ml-1" data-bs-dismiss="modal">
                         <i class="bx bx-check d-block d-sm-none"></i>
-                        <span class="d-none d-sm-block">Accept</span>
+                        <span class="d-none d-sm-block">Terima</span>
                     </button>
                 </div>
             </div>
