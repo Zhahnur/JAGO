@@ -4,7 +4,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title> JAGO </title>
+    <title>JAGO</title>
 
     <link rel="stylesheet" href="{{ asset('mazer') }}/assets/css/main/app.css" />
     <link
@@ -34,7 +34,7 @@
             <div class="container">
               <div class="logo">
                 <a href="index.html"
-                  ><img src="" alt="Logo" style="height: 40px"
+                  ><img src="{{ $app_logo }}" alt="Logo" style="height: 40px"
                 /></a>
               </div>
               <div class="header-top-right">
@@ -77,7 +77,7 @@
                   </ul>
                 </div>
                 @else
-                <a href="" class="btn btn-primary">Masuk</a>
+                <a href="{{ route('login') }}" class="btn btn-primary">Masuk</a>
                 @endauth
               </div>
             </div>
@@ -90,17 +90,16 @@
             @yield('content')
           </div>
         </div>
-      </div>
-    </div>
+
         <footer>
           <div class="container">
             <div class="footer clearfix mb-0 text-muted">
               <div class="float-start">
-                <p>2023 &copy; JAGO </p>
+                <p>2023 &copy; JAGO</p>
               </div>
               <div class="float-end">
                 <p>Dibuat dengan <span class="text-danger"><i class="bi bi-heart-fill icon-mid"></i></span>
-                  Oleh JAGO DEVELOPER</p>
+                  oleh JAGO DEVELOPER</p>
               </div>
             </div>
           </div>
