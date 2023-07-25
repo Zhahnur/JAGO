@@ -4,7 +4,7 @@
         <div class="card-header d-flex justify-content-between">
             <h4 class="card-title"> {{ __('button.add') }} {{ __('field.kelas') }}</h4>
             <div class="card-header-action">
-                <a href="{{ route('backend.kelas.index') }}}}" class="btn btn-secondary">{{ __('button.back') }}</a>
+                <a href="http://localhost:8000/backend/pemilih" class="btn btn-secondary">{{ __('button.back') }}</a>
             </div>
         </div>
         <div class="card-body">
