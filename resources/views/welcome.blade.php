@@ -8,7 +8,7 @@
                 <a href="http://localhost:8000/login" class="btn btn-outline-primary">Mulai Memilih</a>
             </div>
             <div class="col-md-6">
-                <img src="{{ asset('image/gambar-voting.jpeg') }}" alt="" srcset="" class="w-100">
+                <img src="{{ asset('image/gambar-voting.jpeg') g}}" alt="" srcset="" class="w-100">
             </div>
         </div>
         <div class="row pt-5">
