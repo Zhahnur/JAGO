@@ -3,12 +3,12 @@
     <div class="container">
         <div class="row mb-5">
             <div class="col-md-6 pt-md-5 mb-3 text-center text-md-start">
-                <h1 class="text-uppercase">Selamat Datang Di JAGO Indonesia</h1>
+                <h1 class="text-uppercase">Selamat Datang Di JAGO</h1>
                 <h4>Mari Kita Sukseskan Pemilihan Suara di <br> Institut Teknologi Telkom Surabaya</h4>
                 <a href="http://localhost:8000/login" class="btn btn-outline-primary">Mulai Memilih</a>
             </div>
             <div class="col-md-6">
-                <img src="{{ asset('image/gambar-voting.jpeg') }}" alt="" srcset="" class="w-100">
+                <img src="{{ asset('image/gambar-voting.jpeg')}}" alt="" srcset="" class="w-100">
             </div>
         </div>
         <div class="row pt-5">
