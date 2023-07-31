@@ -34,7 +34,7 @@
             <div class="container">
               <div class="logo">
                 <a href="index.html"
-                  ><img src="{{ $app_logo }}" alt="Logo" style="height: 40px"
+                  ><img src="{{ Vite::asset('../../../../public/mazer/assets/images/logo/logoJago.jpeg') }}" alt="Logo" style="height: 40px"
                 /></a>
               </div>
               <div class="header-top-right">
