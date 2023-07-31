@@ -4,7 +4,7 @@
     <div class="col-lg-6 col-12">
         <div id="auth-left">
             <div class="text-center mb-4">
-                <a href="index.html"><img src="{{ Vite::asset('../../../public/mazer/assets/images/logo/logoJago.jpeg') }}" alt="Logo" width="100"></a>
+                <a href="index.html"><img src="{{ $app_logo }}" alt="Logo" width="100"></a>
             </div>
             <h1 class="auth-title">Masuk</h1>
 
